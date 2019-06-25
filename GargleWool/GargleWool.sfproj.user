@@ -3,6 +3,7 @@
   <PropertyGroup>
     <ApplicationUrl />
     <LaunchTarget>..\2 IdentityServer 4\ServiceOAuth\ServiceOAuth.csproj</LaunchTarget>
-    <LastServiceLocation>2 IdentityServer 4</LastServiceLocation>
+    <LastServiceLocation>
+    </LastServiceLocation>
   </PropertyGroup>
 </Project>

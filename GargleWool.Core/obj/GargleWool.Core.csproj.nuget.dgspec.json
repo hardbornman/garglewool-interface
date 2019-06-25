@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\06-硬骨头\\GargleWool\\GargleWool.Core\\GargleWool.Core.csproj": {}
+    "E:\\GitHub\\garglewool-interface\\GargleWool.Core\\GargleWool.Core.csproj": {}
   },
   "projects": {
-    "D:\\Code\\06-硬骨头\\GargleWool\\GargleWool.Core\\GargleWool.Core.csproj": {
+    "E:\\GitHub\\garglewool-interface\\GargleWool.Core\\GargleWool.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\06-硬骨头\\GargleWool\\GargleWool.Core\\GargleWool.Core.csproj",
+        "projectUniqueName": "E:\\GitHub\\garglewool-interface\\GargleWool.Core\\GargleWool.Core.csproj",
         "projectName": "GargleWool.Core",
-        "projectPath": "D:\\Code\\06-硬骨头\\GargleWool\\GargleWool.Core\\GargleWool.Core.csproj",
+        "projectPath": "E:\\GitHub\\garglewool-interface\\GargleWool.Core\\GargleWool.Core.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\06-硬骨头\\GargleWool\\GargleWool.Core\\obj\\",
+        "outputPath": "E:\\GitHub\\garglewool-interface\\GargleWool.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -43,9 +43,21 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
-            "Abp.ZeroCore": {
+            "Abp.ZeroCore.EntityFrameworkCore": {
               "target": "Package",
               "version": "[4.6.0, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.UserSecrets": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Abp.AspNetCore" Version="4.6.0" />
+    <PackageReference Include="Abp.AspNetCore.SignalR" Version="4.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GargleWool.Application\GargleWool.Application.csproj" />
+    <ProjectReference Include="..\GargleWool.EntityFrameworkCore\GargleWool.EntityFrameworkCore.csproj" />
+  </ItemGroup>
+
+</Project>

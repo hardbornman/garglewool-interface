@@ -4,3 +4,11 @@ D:\Code\06-硬骨头\GargleWool\GargleWool.Core\obj\Debug\netcoreapp2.2\GargleWo
 D:\Code\06-硬骨头\GargleWool\GargleWool.Core\obj\Debug\netcoreapp2.2\GargleWool.Core.csproj.CoreCompileInputs.cache
 D:\Code\06-硬骨头\GargleWool\GargleWool.Core\obj\Debug\netcoreapp2.2\GargleWool.Core.AssemblyInfoInputs.cache
 D:\Code\06-硬骨头\GargleWool\GargleWool.Core\obj\Debug\netcoreapp2.2\GargleWool.Core.AssemblyInfo.cs
+E:\GitHub\garglewool-interface\GargleWool.Core\bin\Debug\netcoreapp2.2\GargleWool.Core.deps.json
+E:\GitHub\garglewool-interface\GargleWool.Core\bin\Debug\netcoreapp2.2\GargleWool.Core.dll
+E:\GitHub\garglewool-interface\GargleWool.Core\obj\Debug\netcoreapp2.2\GargleWool.Core.csproj.CoreCompileInputs.cache
+E:\GitHub\garglewool-interface\GargleWool.Core\obj\Debug\netcoreapp2.2\GargleWool.Core.AssemblyInfoInputs.cache
+E:\GitHub\garglewool-interface\GargleWool.Core\obj\Debug\netcoreapp2.2\GargleWool.Core.AssemblyInfo.cs
+E:\GitHub\garglewool-interface\GargleWool.Core\bin\Debug\netcoreapp2.2\GargleWool.Core.pdb
+E:\GitHub\garglewool-interface\GargleWool.Core\obj\Debug\netcoreapp2.2\GargleWool.Core.dll
+E:\GitHub\garglewool-interface\GargleWool.Core\obj\Debug\netcoreapp2.2\GargleWool.Core.pdb

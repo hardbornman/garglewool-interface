@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Hosting;
+﻿using GargleWool.Core.Configuration;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 
 namespace ServiceOAuth.Extension
@@ -7,11 +8,7 @@ namespace ServiceOAuth.Extension
     {
         public static IConfigurationRoot GetAppConfiguration(this IHostingEnvironment env)
         {
-            var builder = new ConfigurationBuilder()
-                .SetBasePath(env.ContentRootPath)
-                .AddJsonFile("appsettings.json", true, true)
-                .AddJsonFile($"appsettings.{env.EnvironmentName}.json", true);
-            return builder.Build();
+            return AppConfigurations.Get(env.ContentRootPath, env.EnvironmentName, env.IsDevelopment());
         }
     }
 }

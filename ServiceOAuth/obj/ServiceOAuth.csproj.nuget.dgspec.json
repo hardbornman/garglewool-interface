@@ -1,17 +1,75 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\06-硬骨头\\GargleWool\\ServiceOAuth\\ServiceOAuth.csproj": {}
+    "E:\\GitHub\\garglewool-interface\\ServiceOAuth\\ServiceOAuth.csproj": {}
   },
   "projects": {
-    "D:\\Code\\06-硬骨头\\GargleWool\\ServiceOAuth\\ServiceOAuth.csproj": {
+    "E:\\GitHub\\garglewool-interface\\GargleWool.Application\\GargleWool.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\06-硬骨头\\GargleWool\\ServiceOAuth\\ServiceOAuth.csproj",
-        "projectName": "ServiceOAuth",
-        "projectPath": "D:\\Code\\06-硬骨头\\GargleWool\\ServiceOAuth\\ServiceOAuth.csproj",
+        "projectUniqueName": "E:\\GitHub\\garglewool-interface\\GargleWool.Application\\GargleWool.Application.csproj",
+        "projectName": "GargleWool.Application",
+        "projectPath": "E:\\GitHub\\garglewool-interface\\GargleWool.Application\\GargleWool.Application.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\06-硬骨头\\GargleWool\\ServiceOAuth\\obj\\",
+        "outputPath": "E:\\GitHub\\garglewool-interface\\GargleWool.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\GitHub\\garglewool-interface\\GargleWool.Core\\GargleWool.Core.csproj": {
+                "projectPath": "E:\\GitHub\\garglewool-interface\\GargleWool.Core\\GargleWool.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\GitHub\\garglewool-interface\\GargleWool.Core\\GargleWool.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GitHub\\garglewool-interface\\GargleWool.Core\\GargleWool.Core.csproj",
+        "projectName": "GargleWool.Core",
+        "projectPath": "E:\\GitHub\\garglewool-interface\\GargleWool.Core\\GargleWool.Core.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\GitHub\\garglewool-interface\\GargleWool.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -43,19 +101,228 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
-            "Abp.ZeroCore": {
+            "Abp.ZeroCore.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.UserSecrets": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\GitHub\\garglewool-interface\\GargleWool.EntityFrameworkCore\\GargleWool.EntityFrameworkCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GitHub\\garglewool-interface\\GargleWool.EntityFrameworkCore\\GargleWool.EntityFrameworkCore.csproj",
+        "projectName": "GargleWool.EntityFrameworkCore",
+        "projectPath": "E:\\GitHub\\garglewool-interface\\GargleWool.EntityFrameworkCore\\GargleWool.EntityFrameworkCore.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\GitHub\\garglewool-interface\\GargleWool.EntityFrameworkCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\GitHub\\garglewool-interface\\GargleWool.Core\\GargleWool.Core.csproj": {
+                "projectPath": "E:\\GitHub\\garglewool-interface\\GargleWool.Core\\GargleWool.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Abp.ZeroCore.IdentityServer4.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql.Design": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\GitHub\\garglewool-interface\\GargleWool.Web.Core\\GargleWool.Web.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GitHub\\garglewool-interface\\GargleWool.Web.Core\\GargleWool.Web.Core.csproj",
+        "projectName": "GargleWool.Web.Core",
+        "projectPath": "E:\\GitHub\\garglewool-interface\\GargleWool.Web.Core\\GargleWool.Web.Core.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\GitHub\\garglewool-interface\\GargleWool.Web.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\GitHub\\garglewool-interface\\GargleWool.Application\\GargleWool.Application.csproj": {
+                "projectPath": "E:\\GitHub\\garglewool-interface\\GargleWool.Application\\GargleWool.Application.csproj"
+              },
+              "E:\\GitHub\\garglewool-interface\\GargleWool.EntityFrameworkCore\\GargleWool.EntityFrameworkCore.csproj": {
+                "projectPath": "E:\\GitHub\\garglewool-interface\\GargleWool.EntityFrameworkCore\\GargleWool.EntityFrameworkCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Abp.AspNetCore": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            },
+            "Abp.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\GitHub\\garglewool-interface\\ServiceOAuth\\ServiceOAuth.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GitHub\\garglewool-interface\\ServiceOAuth\\ServiceOAuth.csproj",
+        "projectName": "ServiceOAuth",
+        "projectPath": "E:\\GitHub\\garglewool-interface\\ServiceOAuth\\ServiceOAuth.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\GitHub\\garglewool-interface\\ServiceOAuth\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\GitHub\\garglewool-interface\\GargleWool.Web.Core\\GargleWool.Web.Core.csproj": {
+                "projectPath": "E:\\GitHub\\garglewool-interface\\GargleWool.Web.Core\\GargleWool.Web.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Abp.AspNetCore": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            },
+            "Abp.Castle.Log4Net": {
               "target": "Package",
               "version": "[4.6.0, )"
             },
             "IdentityServer4": {
-              "target": "Package",
-              "version": "[2.4.0, )"
-            },
-            "IdentityServer4.AspNetIdentity": {
-              "target": "Package",
-              "version": "[2.4.0, )"
-            },
-            "IdentityServer4.EntityFramework": {
               "target": "Package",
               "version": "[2.4.0, )"
             },

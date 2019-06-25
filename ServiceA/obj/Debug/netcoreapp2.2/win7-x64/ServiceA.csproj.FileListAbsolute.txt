@@ -1,0 +1,3 @@
+E:\GitHub\garglewool-interface\ServiceA\obj\Debug\netcoreapp2.2\win7-x64\ServiceA.csproj.CoreCompileInputs.cache
+E:\GitHub\garglewool-interface\ServiceA\obj\Debug\netcoreapp2.2\win7-x64\ServiceA.AssemblyInfoInputs.cache
+E:\GitHub\garglewool-interface\ServiceA\obj\Debug\netcoreapp2.2\win7-x64\ServiceA.AssemblyInfo.cs
