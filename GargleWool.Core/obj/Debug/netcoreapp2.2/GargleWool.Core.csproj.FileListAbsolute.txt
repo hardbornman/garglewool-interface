@@ -1,0 +1,6 @@
+D:\Code\06-硬骨头\GargleWool\GargleWool.Core\bin\Debug\netcoreapp2.2\GargleWool.Core.deps.json
+D:\Code\06-硬骨头\GargleWool\GargleWool.Core\bin\Debug\netcoreapp2.2\GargleWool.Core.dll
+D:\Code\06-硬骨头\GargleWool\GargleWool.Core\obj\Debug\netcoreapp2.2\GargleWool.Core.csprojAssemblyReference.cache
+D:\Code\06-硬骨头\GargleWool\GargleWool.Core\obj\Debug\netcoreapp2.2\GargleWool.Core.csproj.CoreCompileInputs.cache
+D:\Code\06-硬骨头\GargleWool\GargleWool.Core\obj\Debug\netcoreapp2.2\GargleWool.Core.AssemblyInfoInputs.cache
+D:\Code\06-硬骨头\GargleWool\GargleWool.Core\obj\Debug\netcoreapp2.2\GargleWool.Core.AssemblyInfo.cs
