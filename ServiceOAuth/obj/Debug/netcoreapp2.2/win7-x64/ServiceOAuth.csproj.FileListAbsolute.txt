@@ -89,3 +89,5 @@ E:\GitHub\garglewool-interface\ServiceOAuth\obj\Debug\netcoreapp2.2\win7-x64\Ser
 E:\GitHub\garglewool-interface\ServiceOAuth\obj\Debug\netcoreapp2.2\win7-x64\ServiceOAuth.csproj.CopyComplete
 E:\GitHub\garglewool-interface\ServiceOAuth\obj\Debug\netcoreapp2.2\win7-x64\ServiceOAuth.dll
 E:\GitHub\garglewool-interface\ServiceOAuth\obj\Debug\netcoreapp2.2\win7-x64\ServiceOAuth.pdb
+E:\GitHub\garglewool-interface\ServiceOAuth\bin\Debug\netcoreapp2.2\win7-x64\log4net.config
+E:\GitHub\garglewool-interface\ServiceOAuth\bin\Debug\netcoreapp2.2\win7-x64\Certificates\graglewool.pfx

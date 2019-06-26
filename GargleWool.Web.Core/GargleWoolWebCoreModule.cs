@@ -1,6 +1,4 @@
-﻿using System;
-using System.Text;
-using Abp.AspNetCore;
+﻿using Abp.AspNetCore;
 using Abp.AspNetCore.Configuration;
 using Abp.AspNetCore.SignalR;
 using Abp.Configuration.Startup;
@@ -11,9 +9,9 @@ using GargleWool.Application;
 using GargleWool.Core;
 using GargleWool.EntityFrameworkCore.EntityFrameworkCore;
 using GargleWool.Web.Core.Authentication.JwtBearer;
+using GargleWool.Web.Core.Configuration;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
-using Microsoft.IdentityModel.Tokens;
 
 namespace GargleWool.Web.Core
 {
@@ -28,7 +26,7 @@ namespace GargleWool.Web.Core
         private readonly IHostingEnvironment _env;
         private readonly IConfigurationRoot _appConfiguration;
 
-        public YoyoCmsTemplateWebCoreModule(IHostingEnvironment env)
+        public GargleWoolWebCoreModule(IHostingEnvironment env)
         {
             _env = env;
             _appConfiguration = env.GetAppConfiguration();
@@ -48,7 +46,7 @@ namespace GargleWool.Web.Core
 
             Configuration.Modules.AbpAspNetCore()
                  .CreateControllersForAppServices(
-                     typeof(YoyoCmsTemplateApplicationModule).GetAssembly()
+                     typeof(GargleWoolWebCoreModule).GetAssembly()
                  );
 
             ConfigureTokenAuth();
@@ -62,28 +60,16 @@ namespace GargleWool.Web.Core
 
             var tokenAuthConfig = IocManager.Resolve<TokenAuthConfiguration>();
 
-            // 默认的配置
-            if (bool.Parse(_appConfiguration["Authentication:JwtBearer:IsEnabled"]))
-            {
-                tokenAuthConfig.SecurityKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(_appConfiguration["Authentication:JwtBearer:SecurityKey"]));
-                tokenAuthConfig.Issuer = _appConfiguration["Authentication:JwtBearer:Issuer"];
-                tokenAuthConfig.Audience = _appConfiguration["Authentication:JwtBearer:Audience"];
-                tokenAuthConfig.SigningCredentials = new SigningCredentials(tokenAuthConfig.SecurityKey, SecurityAlgorithms.HmacSha256);
-                tokenAuthConfig.Expiration = TimeSpan.FromDays(1);
-
-            }// ids4的配置
-            else if (bool.Parse(_appConfiguration["Authentication:IdentityServer4:IsEnabled"]))
-            {
-                tokenAuthConfig.Authority = _appConfiguration["Authentication:IdentityServer4:Authority"];
-                tokenAuthConfig.ClientId = _appConfiguration["Authentication:IdentityServer4:ClientId"];
-                tokenAuthConfig.Secret = _appConfiguration["Authentication:IdentityServer4:Secret"];
-            }
+            tokenAuthConfig.Authority = _appConfiguration["Authentication:IdentityServer4:Authority"];
+            tokenAuthConfig.ClientId = _appConfiguration["Authentication:IdentityServer4:ClientId"];
+            tokenAuthConfig.Secret = _appConfiguration["Authentication:IdentityServer4:Secret"];
+    
 
         }
 
         public override void Initialize()
         {
-            IocManager.RegisterAssemblyByConvention(typeof(YoyoCmsTemplateWebCoreModule).GetAssembly());
+            IocManager.RegisterAssemblyByConvention(typeof(GargleWoolWebCoreModule).GetAssembly());
         }
     }
 }

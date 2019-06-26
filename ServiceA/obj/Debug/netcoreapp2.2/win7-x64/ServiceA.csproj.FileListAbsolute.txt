@@ -1,3 +1,16 @@
 E:\GitHub\garglewool-interface\ServiceA\obj\Debug\netcoreapp2.2\win7-x64\ServiceA.csproj.CoreCompileInputs.cache
 E:\GitHub\garglewool-interface\ServiceA\obj\Debug\netcoreapp2.2\win7-x64\ServiceA.AssemblyInfoInputs.cache
 E:\GitHub\garglewool-interface\ServiceA\obj\Debug\netcoreapp2.2\win7-x64\ServiceA.AssemblyInfo.cs
+E:\GitHub\garglewool-interface\ServiceA\bin\Debug\netcoreapp2.2\win7-x64\hostpolicy.dll
+E:\GitHub\garglewool-interface\ServiceA\bin\Debug\netcoreapp2.2\win7-x64\hostfxr.dll
+E:\GitHub\garglewool-interface\ServiceA\bin\Debug\netcoreapp2.2\win7-x64\ServiceA.exe
+E:\GitHub\garglewool-interface\ServiceA\bin\Debug\netcoreapp2.2\win7-x64\ServiceA.deps.json
+E:\GitHub\garglewool-interface\ServiceA\bin\Debug\netcoreapp2.2\win7-x64\ServiceA.runtimeconfig.json
+E:\GitHub\garglewool-interface\ServiceA\bin\Debug\netcoreapp2.2\win7-x64\ServiceA.runtimeconfig.dev.json
+E:\GitHub\garglewool-interface\ServiceA\bin\Debug\netcoreapp2.2\win7-x64\ServiceA.dll
+E:\GitHub\garglewool-interface\ServiceA\bin\Debug\netcoreapp2.2\win7-x64\ServiceA.pdb
+E:\GitHub\garglewool-interface\ServiceA\obj\Debug\netcoreapp2.2\win7-x64\ServiceA.RazorAssemblyInfo.cache
+E:\GitHub\garglewool-interface\ServiceA\obj\Debug\netcoreapp2.2\win7-x64\ServiceA.RazorAssemblyInfo.cs
+E:\GitHub\garglewool-interface\ServiceA\obj\Debug\netcoreapp2.2\win7-x64\ServiceA.RazorTargetAssemblyInfo.cache
+E:\GitHub\garglewool-interface\ServiceA\obj\Debug\netcoreapp2.2\win7-x64\ServiceA.dll
+E:\GitHub\garglewool-interface\ServiceA\obj\Debug\netcoreapp2.2\win7-x64\ServiceA.pdb

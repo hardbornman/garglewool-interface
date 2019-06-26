@@ -4,6 +4,7 @@ using Abp.Modules;
 using Abp.Reflection.Extensions;
 using Abp.Zero.EntityFrameworkCore;
 using GargleWool.Core;
+using GargleWool.EntityFrameworkCore.EntityFrameworkCore.Seed;
 
 namespace GargleWool.EntityFrameworkCore.EntityFrameworkCore
 {
@@ -42,10 +43,10 @@ namespace GargleWool.EntityFrameworkCore.EntityFrameworkCore
 
         public override void PostInitialize()
         {
-            //if (!SkipDbSeed)
-            //{
-            //    SeedHelper.SeedHostDb(IocManager);
-            //}
+            if (!SkipDbSeed)
+            {
+                SeedHelper.SeedHostDb(IocManager);
+            }
         }
     }
 }

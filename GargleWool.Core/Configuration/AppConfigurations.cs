@@ -1,7 +1,9 @@
 ﻿using System.Collections.Concurrent;
+using System.Reflection;
 using Abp.Extensions;
 using Abp.Reflection.Extensions;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Configuration.UserSecrets;
 
 namespace GargleWool.Core.Configuration
 {
@@ -37,7 +39,7 @@ namespace GargleWool.Core.Configuration
             builder = builder.AddEnvironmentVariables();
 
             if (addUserSecrets)
-            {
+            { 
                 builder.AddUserSecrets(typeof(AppConfigurations).GetAssembly());
             }
 

@@ -1,9 +1,9 @@
 ﻿using Abp.Modules;
 using Abp.Reflection.Extensions;
 using GargleWool.Web.Core;
+using GargleWool.Web.Core.Configuration;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
-using ServiceOAuth.Extension;
 
 namespace ServiceOAuth
 {

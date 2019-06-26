@@ -7,6 +7,7 @@
     <ServerGarbageCollection>True</ServerGarbageCollection>
     <RuntimeIdentifier>win7-x64</RuntimeIdentifier>
     <TargetLatestRuntimePatch>False</TargetLatestRuntimePatch>
+    <UserSecretsId>40b08d37-302a-485b-9014-f858ec150e1f</UserSecretsId>
   </PropertyGroup>
 
 
@@ -27,6 +28,20 @@
 
   <ItemGroup>
     <ProjectReference Include="..\GargleWool.Web.Core\GargleWool.Web.Core.csproj" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Content Update="log4net.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <None Update="Certificates\graglewool.pfx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

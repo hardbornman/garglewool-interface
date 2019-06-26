@@ -25,16 +25,22 @@ namespace GargleWool.Core.Web
                 directoryInfo = directoryInfo.Parent ?? throw new Exception("Could not find content root folder!");
             }
 
-            var webMvcFolder = Path.Combine(directoryInfo.FullName, "src", "GargleWool.Web.Mvc");
+            var webMvcFolder = Path.Combine(directoryInfo.FullName, "GargleWool.Web.Mvc");
             if (Directory.Exists(webMvcFolder))
             {
                 return webMvcFolder;
             }
 
-            var webHostFolder = Path.Combine(directoryInfo.FullName, "src", "GargleWool.Web.Host");
+            var webHostFolder = Path.Combine(directoryInfo.FullName, "GargleWool.Web.Host");
             if (Directory.Exists(webHostFolder))
             {
                 return webHostFolder;
+            }
+
+            var webOAuthFolder = Path.Combine(directoryInfo.FullName, "ServiceOAuth");
+            if (Directory.Exists(webOAuthFolder))
+            {
+                return webOAuthFolder;
             }
 
             throw new Exception("Could not find root folder of the web project!");

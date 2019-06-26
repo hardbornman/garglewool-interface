@@ -5,6 +5,8 @@ using Abp.Zero;
 using Abp.Zero.Configuration;
 using GargleWool.Core.Authorization.Roles;
 using GargleWool.Core.Authorization.Users;
+using GargleWool.Core.Configuration;
+using GargleWool.Core.Localization;
 using GargleWool.Core.MultiTenancy;
 using GargleWool.Core.Timing;
 
@@ -21,6 +23,12 @@ namespace GargleWool.Core
             Configuration.Modules.Zero().EntityTypes.Tenant = typeof(Tenant);
             Configuration.Modules.Zero().EntityTypes.User = typeof(User);
             Configuration.Modules.Zero().EntityTypes.Role = typeof(Role);
+
+            GargleWoolLocalizationConfigure.Configure(Configuration.Localization);
+
+            AppRoleConfig.Configure(Configuration.Modules.Zero().RoleManagement);
+
+            Configuration.Settings.Providers.Add<AppSettingProvider>();
         }
 
         public override void Initialize() => IocManager.RegisterAssemblyByConvention(typeof(GargleWoolCoreModule).GetAssembly());

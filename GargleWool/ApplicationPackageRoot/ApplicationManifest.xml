@@ -1,29 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ApplicationManifest ApplicationTypeName="GargleWoolType"
-                     ApplicationTypeVersion="1.0.0"
-                     xmlns="http://schemas.microsoft.com/2011/01/fabric"
-                     xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ApplicationManifest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ApplicationTypeName="GargleWoolType" ApplicationTypeVersion="1.0.0" xmlns="http://schemas.microsoft.com/2011/01/fabric">
   <Parameters>
     <Parameter Name="ServiceA_ASPNETCORE_ENVIRONMENT" DefaultValue="" />
     <Parameter Name="ServiceA_InstanceCount" DefaultValue="-1" />
-    <Parameter Name="ServiceA_ASPNETCORE_ENVIRONMENT" DefaultValue="" />
-    <Parameter Name="ServiceA_MinReplicaSetSize" DefaultValue="3" />
-    <Parameter Name="ServiceA_PartitionCount" DefaultValue="1" />
-    <Parameter Name="ServiceA_TargetReplicaSetSize" DefaultValue="3" />
     <Parameter Name="ServiceOAuth_ASPNETCORE_ENVIRONMENT" DefaultValue="" />
     <Parameter Name="ServiceOAuth_InstanceCount" DefaultValue="-1" />
   </Parameters>
   <!-- 从 ServicePackage 导入 ServiceManifest。ServiceManifestName 和 ServiceManifestVersion
        应与 ServiceManifest.xml 文件中定义的 ServiceManifest 元素的
        名称属性和版本属性相匹配。 -->
-  <ServiceManifestImport>
-    <ServiceManifestRef ServiceManifestName="ServiceAPkg" ServiceManifestVersion="1.0.0" />
-    <ConfigOverrides />
-    <EnvironmentOverrides CodePackageRef="code">
-      <EnvironmentVariable Name="ASPNETCORE_ENVIRONMENT" Value="[ServiceA_ASPNETCORE_ENVIRONMENT]" />
-    </EnvironmentOverrides>
-  </ServiceManifestImport>
   <ServiceManifestImport>
     <ServiceManifestRef ServiceManifestName="ServiceAPkg" ServiceManifestVersion="1.0.0" />
     <ConfigOverrides />
@@ -48,11 +33,6 @@
       <StatelessService ServiceTypeName="ServiceAType" InstanceCount="[ServiceA_InstanceCount]">
         <SingletonPartition />
       </StatelessService>
-    </Service>
-    <Service Name="ServiceA" ServicePackageActivationMode="ExclusiveProcess">
-      <StatefulService ServiceTypeName="ServiceAType" TargetReplicaSetSize="[ServiceA_TargetReplicaSetSize]" MinReplicaSetSize="[ServiceA_MinReplicaSetSize]">
-        <UniformInt64Partition PartitionCount="[ServiceA_PartitionCount]" LowKey="-9223372036854775808" HighKey="9223372036854775807" />
-      </StatefulService>
     </Service>
     <Service Name="ServiceOAuth" ServicePackageActivationMode="ExclusiveProcess">
       <StatelessService ServiceTypeName="ServiceOAuthType" InstanceCount="[ServiceOAuth_InstanceCount]">

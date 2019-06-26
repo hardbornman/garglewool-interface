@@ -12,3 +12,5 @@ E:\GitHub\garglewool-interface\GargleWool.Core\obj\Debug\netcoreapp2.2\GargleWoo
 E:\GitHub\garglewool-interface\GargleWool.Core\bin\Debug\netcoreapp2.2\GargleWool.Core.pdb
 E:\GitHub\garglewool-interface\GargleWool.Core\obj\Debug\netcoreapp2.2\GargleWool.Core.dll
 E:\GitHub\garglewool-interface\GargleWool.Core\obj\Debug\netcoreapp2.2\GargleWool.Core.pdb
+E:\GitHub\garglewool-interface\GargleWool.Core\obj\Debug\netcoreapp2.2\GargleWool.Core.Properties.Resources.resources
+E:\GitHub\garglewool-interface\GargleWool.Core\obj\Debug\netcoreapp2.2\GargleWool.Core.csproj.GenerateResource.cache

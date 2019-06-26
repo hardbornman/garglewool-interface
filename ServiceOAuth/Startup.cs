@@ -10,6 +10,7 @@ using Abp.IdentityServer4;
 using Castle.Facilities.Logging;
 using GargleWool.Core.Authorization.Users;
 using GargleWool.Core.Identity;
+using GargleWool.Web.Core.Configuration;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -18,7 +19,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using ServiceOAuth.Configuration;
-using ServiceOAuth.Extension;
 using ServiceOAuth.Service.Profiles;
 using ServiceOAuth.Validator;
 
