@@ -1,32 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "E:\\GitHub\\garglewool-interface\\GargleWool.Core\\GargleWool.Core.csproj": {}
+    "D:\\github\\garglewool-interface-front\\GargleWool.Core\\GargleWool.Core.csproj": {}
   },
   "projects": {
-    "E:\\GitHub\\garglewool-interface\\GargleWool.Core\\GargleWool.Core.csproj": {
+    "D:\\github\\garglewool-interface-front\\GargleWool.Core\\GargleWool.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GitHub\\garglewool-interface\\GargleWool.Core\\GargleWool.Core.csproj",
+        "projectUniqueName": "D:\\github\\garglewool-interface-front\\GargleWool.Core\\GargleWool.Core.csproj",
         "projectName": "GargleWool.Core",
-        "projectPath": "E:\\GitHub\\garglewool-interface\\GargleWool.Core\\GargleWool.Core.csproj",
+        "projectPath": "D:\\github\\garglewool-interface-front\\GargleWool.Core\\GargleWool.Core.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "E:\\GitHub\\garglewool-interface\\GargleWool.Core\\obj\\",
+        "outputPath": "D:\\github\\garglewool-interface-front\\GargleWool.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
