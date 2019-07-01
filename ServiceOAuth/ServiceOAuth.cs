@@ -6,6 +6,7 @@ using System.Net;
 using System.Security.Cryptography.X509Certificates;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using Microsoft.ServiceFabric.Services.Communication.AspNetCore;
 using Microsoft.ServiceFabric.Services.Communication.Runtime;
 using Microsoft.ServiceFabric.Services.Runtime;
@@ -34,7 +35,7 @@ namespace ServiceOAuth
                     {
                         ServiceEventSource.Current.ServiceMessage(serviceContext, $"Starting Kestrel on {url}");
 
-                        return new WebHostBuilder() 
+                        return new WebHostBuilder()
                                     .UseKestrel()
                                     .ConfigureServices(
                                         services => services
@@ -43,6 +44,11 @@ namespace ServiceOAuth
                                     .UseStartup<Startup>()
                                     .UseServiceFabricIntegration(listener, ServiceFabricIntegrationOptions.None)
                                     .UseUrls(url)
+                                    .ConfigureLogging(logging=>
+                                    {
+                                        logging.ClearProviders();
+                                        logging.AddDebug();
+                                    })
                                     .Build();
                     }))
             };

@@ -1,37 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "D:\\github\\garglewool-interface-front\\ServiceOAuth\\ServiceOAuth.csproj": {}
+    "E:\\GitHub\\garglewool-interface-front\\ServiceOAuth\\ServiceOAuth.csproj": {}
   },
   "projects": {
-    "D:\\github\\garglewool-interface-front\\GargleWool.Application\\GargleWool.Application.csproj": {
+    "E:\\GitHub\\garglewool-interface-front\\GargleWool.Application\\GargleWool.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\github\\garglewool-interface-front\\GargleWool.Application\\GargleWool.Application.csproj",
+        "projectUniqueName": "E:\\GitHub\\garglewool-interface-front\\GargleWool.Application\\GargleWool.Application.csproj",
         "projectName": "GargleWool.Application",
-        "projectPath": "D:\\github\\garglewool-interface-front\\GargleWool.Application\\GargleWool.Application.csproj",
+        "projectPath": "E:\\GitHub\\garglewool-interface-front\\GargleWool.Application\\GargleWool.Application.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\github\\garglewool-interface-front\\GargleWool.Application\\obj\\",
+        "outputPath": "E:\\GitHub\\garglewool-interface-front\\GargleWool.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\github\\garglewool-interface-front\\GargleWool.Core\\GargleWool.Core.csproj": {
-                "projectPath": "D:\\github\\garglewool-interface-front\\GargleWool.Core\\GargleWool.Core.csproj"
+              "E:\\GitHub\\garglewool-interface-front\\GargleWool.Core\\GargleWool.Core.csproj": {
+                "projectPath": "E:\\GitHub\\garglewool-interface-front\\GargleWool.Core\\GargleWool.Core.csproj"
               }
             }
           }
@@ -60,27 +62,29 @@
         }
       }
     },
-    "D:\\github\\garglewool-interface-front\\GargleWool.Core\\GargleWool.Core.csproj": {
+    "E:\\GitHub\\garglewool-interface-front\\GargleWool.Core\\GargleWool.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\github\\garglewool-interface-front\\GargleWool.Core\\GargleWool.Core.csproj",
+        "projectUniqueName": "E:\\GitHub\\garglewool-interface-front\\GargleWool.Core\\GargleWool.Core.csproj",
         "projectName": "GargleWool.Core",
-        "projectPath": "D:\\github\\garglewool-interface-front\\GargleWool.Core\\GargleWool.Core.csproj",
+        "projectPath": "E:\\GitHub\\garglewool-interface-front\\GargleWool.Core\\GargleWool.Core.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\github\\garglewool-interface-front\\GargleWool.Core\\obj\\",
+        "outputPath": "E:\\GitHub\\garglewool-interface-front\\GargleWool.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -128,34 +132,36 @@
         }
       }
     },
-    "D:\\github\\garglewool-interface-front\\GargleWool.EntityFrameworkCore\\GargleWool.EntityFrameworkCore.csproj": {
+    "E:\\GitHub\\garglewool-interface-front\\GargleWool.EntityFrameworkCore\\GargleWool.EntityFrameworkCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\github\\garglewool-interface-front\\GargleWool.EntityFrameworkCore\\GargleWool.EntityFrameworkCore.csproj",
+        "projectUniqueName": "E:\\GitHub\\garglewool-interface-front\\GargleWool.EntityFrameworkCore\\GargleWool.EntityFrameworkCore.csproj",
         "projectName": "GargleWool.EntityFrameworkCore",
-        "projectPath": "D:\\github\\garglewool-interface-front\\GargleWool.EntityFrameworkCore\\GargleWool.EntityFrameworkCore.csproj",
+        "projectPath": "E:\\GitHub\\garglewool-interface-front\\GargleWool.EntityFrameworkCore\\GargleWool.EntityFrameworkCore.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\github\\garglewool-interface-front\\GargleWool.EntityFrameworkCore\\obj\\",
+        "outputPath": "E:\\GitHub\\garglewool-interface-front\\GargleWool.EntityFrameworkCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\github\\garglewool-interface-front\\GargleWool.Core\\GargleWool.Core.csproj": {
-                "projectPath": "D:\\github\\garglewool-interface-front\\GargleWool.Core\\GargleWool.Core.csproj"
+              "E:\\GitHub\\garglewool-interface-front\\GargleWool.Core\\GargleWool.Core.csproj": {
+                "projectPath": "E:\\GitHub\\garglewool-interface-front\\GargleWool.Core\\GargleWool.Core.csproj"
               }
             }
           }
@@ -196,37 +202,39 @@
         }
       }
     },
-    "D:\\github\\garglewool-interface-front\\GargleWool.Web.Core\\GargleWool.Web.Core.csproj": {
+    "E:\\GitHub\\garglewool-interface-front\\GargleWool.Web.Core\\GargleWool.Web.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\github\\garglewool-interface-front\\GargleWool.Web.Core\\GargleWool.Web.Core.csproj",
+        "projectUniqueName": "E:\\GitHub\\garglewool-interface-front\\GargleWool.Web.Core\\GargleWool.Web.Core.csproj",
         "projectName": "GargleWool.Web.Core",
-        "projectPath": "D:\\github\\garglewool-interface-front\\GargleWool.Web.Core\\GargleWool.Web.Core.csproj",
+        "projectPath": "E:\\GitHub\\garglewool-interface-front\\GargleWool.Web.Core\\GargleWool.Web.Core.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\github\\garglewool-interface-front\\GargleWool.Web.Core\\obj\\",
+        "outputPath": "E:\\GitHub\\garglewool-interface-front\\GargleWool.Web.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\github\\garglewool-interface-front\\GargleWool.Application\\GargleWool.Application.csproj": {
-                "projectPath": "D:\\github\\garglewool-interface-front\\GargleWool.Application\\GargleWool.Application.csproj"
+              "E:\\GitHub\\garglewool-interface-front\\GargleWool.Application\\GargleWool.Application.csproj": {
+                "projectPath": "E:\\GitHub\\garglewool-interface-front\\GargleWool.Application\\GargleWool.Application.csproj"
               },
-              "D:\\github\\garglewool-interface-front\\GargleWool.EntityFrameworkCore\\GargleWool.EntityFrameworkCore.csproj": {
-                "projectPath": "D:\\github\\garglewool-interface-front\\GargleWool.EntityFrameworkCore\\GargleWool.EntityFrameworkCore.csproj"
+              "E:\\GitHub\\garglewool-interface-front\\GargleWool.EntityFrameworkCore\\GargleWool.EntityFrameworkCore.csproj": {
+                "projectPath": "E:\\GitHub\\garglewool-interface-front\\GargleWool.EntityFrameworkCore\\GargleWool.EntityFrameworkCore.csproj"
               }
             }
           }
@@ -263,34 +271,36 @@
         }
       }
     },
-    "D:\\github\\garglewool-interface-front\\ServiceOAuth\\ServiceOAuth.csproj": {
+    "E:\\GitHub\\garglewool-interface-front\\ServiceOAuth\\ServiceOAuth.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\github\\garglewool-interface-front\\ServiceOAuth\\ServiceOAuth.csproj",
+        "projectUniqueName": "E:\\GitHub\\garglewool-interface-front\\ServiceOAuth\\ServiceOAuth.csproj",
         "projectName": "ServiceOAuth",
-        "projectPath": "D:\\github\\garglewool-interface-front\\ServiceOAuth\\ServiceOAuth.csproj",
+        "projectPath": "E:\\GitHub\\garglewool-interface-front\\ServiceOAuth\\ServiceOAuth.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\github\\garglewool-interface-front\\ServiceOAuth\\obj\\",
+        "outputPath": "E:\\GitHub\\garglewool-interface-front\\ServiceOAuth\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\github\\garglewool-interface-front\\GargleWool.Web.Core\\GargleWool.Web.Core.csproj": {
-                "projectPath": "D:\\github\\garglewool-interface-front\\GargleWool.Web.Core\\GargleWool.Web.Core.csproj"
+              "E:\\GitHub\\garglewool-interface-front\\GargleWool.Web.Core\\GargleWool.Web.Core.csproj": {
+                "projectPath": "E:\\GitHub\\garglewool-interface-front\\GargleWool.Web.Core\\GargleWool.Web.Core.csproj"
               }
             }
           }
@@ -336,6 +346,10 @@
             "Microsoft.ServiceFabric.AspNetCore.Kestrel": {
               "target": "Package",
               "version": "[3.4.639, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
             }
           },
           "imports": [

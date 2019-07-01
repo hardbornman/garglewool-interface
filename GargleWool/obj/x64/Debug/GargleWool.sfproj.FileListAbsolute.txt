@@ -1,3 +1,4 @@
 D:\Code\06-硬骨头\GargleWool\GargleWool\obj\x64\Debug\GargleWool.sfproj.CoreCompileInputs.cache
 E:\GitHub\garglewool-interface\GargleWool\obj\x64\Debug\GargleWool.sfproj.CoreCompileInputs.cache
 D:\github\garglewool-interface-front\GargleWool\obj\x64\Debug\GargleWool.sfproj.CoreCompileInputs.cache
+E:\GitHub\garglewool-interface-front\GargleWool\obj\x64\Debug\GargleWool.sfproj.CoreCompileInputs.cache

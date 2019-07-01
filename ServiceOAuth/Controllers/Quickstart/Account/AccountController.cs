@@ -5,6 +5,7 @@
 using System;
 using System.Linq;
 using System.Threading.Tasks;
+using Abp.AspNetCore.Mvc.Controllers;
 using IdentityModel;
 using IdentityServer4.Events;
 using IdentityServer4.Extensions;
@@ -26,7 +27,7 @@ namespace ServiceOAuth.Controllers.Quickstart.Account
     /// </summary>
     [SecurityHeaders]
     [AllowAnonymous]
-    public class AccountController : Controller
+    public class AccountController : AbpController
     {
         private readonly TestUserStore _users;
         private readonly IIdentityServerInteractionService _interaction;

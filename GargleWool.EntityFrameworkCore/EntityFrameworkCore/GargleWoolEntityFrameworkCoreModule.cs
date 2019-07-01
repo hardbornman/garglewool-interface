@@ -5,6 +5,7 @@ using Abp.Reflection.Extensions;
 using Abp.Zero.EntityFrameworkCore;
 using GargleWool.Core;
 using GargleWool.EntityFrameworkCore.EntityFrameworkCore.Seed;
+using IdentityServer4.Services;
 
 namespace GargleWool.EntityFrameworkCore.EntityFrameworkCore
 {

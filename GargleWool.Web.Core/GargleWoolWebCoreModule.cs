@@ -46,7 +46,7 @@ namespace GargleWool.Web.Core
 
             Configuration.Modules.AbpAspNetCore()
                  .CreateControllersForAppServices(
-                     typeof(GargleWoolWebCoreModule).GetAssembly()
+                     typeof(GargleWoolApplicationModule).GetAssembly()
                  );
 
             ConfigureTokenAuth();

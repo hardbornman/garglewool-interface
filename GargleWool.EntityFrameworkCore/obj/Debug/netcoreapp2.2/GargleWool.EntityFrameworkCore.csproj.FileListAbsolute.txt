@@ -22,3 +22,15 @@ D:\github\garglewool-interface-front\GargleWool.EntityFrameworkCore\obj\Debug\ne
 D:\github\garglewool-interface-front\GargleWool.EntityFrameworkCore\obj\Debug\netcoreapp2.2\GargleWool.EntityFrameworkCore.csproj.CopyComplete
 D:\github\garglewool-interface-front\GargleWool.EntityFrameworkCore\obj\Debug\netcoreapp2.2\GargleWool.EntityFrameworkCore.dll
 D:\github\garglewool-interface-front\GargleWool.EntityFrameworkCore\obj\Debug\netcoreapp2.2\GargleWool.EntityFrameworkCore.pdb
+E:\GitHub\garglewool-interface-front\GargleWool.EntityFrameworkCore\bin\Debug\netcoreapp2.2\GargleWool.EntityFrameworkCore.deps.json
+E:\GitHub\garglewool-interface-front\GargleWool.EntityFrameworkCore\bin\Debug\netcoreapp2.2\GargleWool.EntityFrameworkCore.dll
+E:\GitHub\garglewool-interface-front\GargleWool.EntityFrameworkCore\bin\Debug\netcoreapp2.2\GargleWool.EntityFrameworkCore.pdb
+E:\GitHub\garglewool-interface-front\GargleWool.EntityFrameworkCore\bin\Debug\netcoreapp2.2\GargleWool.Core.dll
+E:\GitHub\garglewool-interface-front\GargleWool.EntityFrameworkCore\bin\Debug\netcoreapp2.2\GargleWool.Core.pdb
+E:\GitHub\garglewool-interface-front\GargleWool.EntityFrameworkCore\obj\Debug\netcoreapp2.2\GargleWool.EntityFrameworkCore.csprojAssemblyReference.cache
+E:\GitHub\garglewool-interface-front\GargleWool.EntityFrameworkCore\obj\Debug\netcoreapp2.2\GargleWool.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+E:\GitHub\garglewool-interface-front\GargleWool.EntityFrameworkCore\obj\Debug\netcoreapp2.2\GargleWool.EntityFrameworkCore.AssemblyInfoInputs.cache
+E:\GitHub\garglewool-interface-front\GargleWool.EntityFrameworkCore\obj\Debug\netcoreapp2.2\GargleWool.EntityFrameworkCore.AssemblyInfo.cs
+E:\GitHub\garglewool-interface-front\GargleWool.EntityFrameworkCore\obj\Debug\netcoreapp2.2\GargleWool.EntityFrameworkCore.csproj.CopyComplete
+E:\GitHub\garglewool-interface-front\GargleWool.EntityFrameworkCore\obj\Debug\netcoreapp2.2\GargleWool.EntityFrameworkCore.dll
+E:\GitHub\garglewool-interface-front\GargleWool.EntityFrameworkCore\obj\Debug\netcoreapp2.2\GargleWool.EntityFrameworkCore.pdb

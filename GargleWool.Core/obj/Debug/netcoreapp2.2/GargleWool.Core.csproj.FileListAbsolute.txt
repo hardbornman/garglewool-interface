@@ -24,3 +24,13 @@ D:\github\garglewool-interface-front\GargleWool.Core\obj\Debug\netcoreapp2.2\Gar
 D:\github\garglewool-interface-front\GargleWool.Core\obj\Debug\netcoreapp2.2\GargleWool.Core.AssemblyInfo.cs
 D:\github\garglewool-interface-front\GargleWool.Core\obj\Debug\netcoreapp2.2\GargleWool.Core.dll
 D:\github\garglewool-interface-front\GargleWool.Core\obj\Debug\netcoreapp2.2\GargleWool.Core.pdb
+E:\GitHub\garglewool-interface-front\GargleWool.Core\bin\Debug\netcoreapp2.2\GargleWool.Core.deps.json
+E:\GitHub\garglewool-interface-front\GargleWool.Core\bin\Debug\netcoreapp2.2\GargleWool.Core.dll
+E:\GitHub\garglewool-interface-front\GargleWool.Core\bin\Debug\netcoreapp2.2\GargleWool.Core.pdb
+E:\GitHub\garglewool-interface-front\GargleWool.Core\obj\Debug\netcoreapp2.2\GargleWool.Core.Properties.Resources.resources
+E:\GitHub\garglewool-interface-front\GargleWool.Core\obj\Debug\netcoreapp2.2\GargleWool.Core.csproj.GenerateResource.cache
+E:\GitHub\garglewool-interface-front\GargleWool.Core\obj\Debug\netcoreapp2.2\GargleWool.Core.csproj.CoreCompileInputs.cache
+E:\GitHub\garglewool-interface-front\GargleWool.Core\obj\Debug\netcoreapp2.2\GargleWool.Core.AssemblyInfoInputs.cache
+E:\GitHub\garglewool-interface-front\GargleWool.Core\obj\Debug\netcoreapp2.2\GargleWool.Core.AssemblyInfo.cs
+E:\GitHub\garglewool-interface-front\GargleWool.Core\obj\Debug\netcoreapp2.2\GargleWool.Core.dll
+E:\GitHub\garglewool-interface-front\GargleWool.Core\obj\Debug\netcoreapp2.2\GargleWool.Core.pdb

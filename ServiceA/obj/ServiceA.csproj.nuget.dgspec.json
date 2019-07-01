@@ -1,30 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "D:\\github\\garglewool-interface-front\\ServiceA\\ServiceA.csproj": {}
+    "E:\\GitHub\\garglewool-interface-front\\ServiceA\\ServiceA.csproj": {}
   },
   "projects": {
-    "D:\\github\\garglewool-interface-front\\ServiceA\\ServiceA.csproj": {
+    "E:\\GitHub\\garglewool-interface-front\\ServiceA\\ServiceA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\github\\garglewool-interface-front\\ServiceA\\ServiceA.csproj",
+        "projectUniqueName": "E:\\GitHub\\garglewool-interface-front\\ServiceA\\ServiceA.csproj",
         "projectName": "ServiceA",
-        "projectPath": "D:\\github\\garglewool-interface-front\\ServiceA\\ServiceA.csproj",
+        "projectPath": "E:\\GitHub\\garglewool-interface-front\\ServiceA\\ServiceA.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\github\\garglewool-interface-front\\ServiceA\\obj\\",
+        "outputPath": "E:\\GitHub\\garglewool-interface-front\\ServiceA\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

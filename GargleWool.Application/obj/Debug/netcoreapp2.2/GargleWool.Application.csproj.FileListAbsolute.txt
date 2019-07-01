@@ -22,3 +22,15 @@ D:\github\garglewool-interface-front\GargleWool.Application\obj\Debug\netcoreapp
 D:\github\garglewool-interface-front\GargleWool.Application\obj\Debug\netcoreapp2.2\GargleWool.Application.csproj.CopyComplete
 D:\github\garglewool-interface-front\GargleWool.Application\obj\Debug\netcoreapp2.2\GargleWool.Application.dll
 D:\github\garglewool-interface-front\GargleWool.Application\obj\Debug\netcoreapp2.2\GargleWool.Application.pdb
+E:\GitHub\garglewool-interface-front\GargleWool.Application\bin\Debug\netcoreapp2.2\GargleWool.Application.deps.json
+E:\GitHub\garglewool-interface-front\GargleWool.Application\bin\Debug\netcoreapp2.2\GargleWool.Application.dll
+E:\GitHub\garglewool-interface-front\GargleWool.Application\bin\Debug\netcoreapp2.2\GargleWool.Application.pdb
+E:\GitHub\garglewool-interface-front\GargleWool.Application\bin\Debug\netcoreapp2.2\GargleWool.Core.dll
+E:\GitHub\garglewool-interface-front\GargleWool.Application\bin\Debug\netcoreapp2.2\GargleWool.Core.pdb
+E:\GitHub\garglewool-interface-front\GargleWool.Application\obj\Debug\netcoreapp2.2\GargleWool.Application.csprojAssemblyReference.cache
+E:\GitHub\garglewool-interface-front\GargleWool.Application\obj\Debug\netcoreapp2.2\GargleWool.Application.csproj.CoreCompileInputs.cache
+E:\GitHub\garglewool-interface-front\GargleWool.Application\obj\Debug\netcoreapp2.2\GargleWool.Application.AssemblyInfoInputs.cache
+E:\GitHub\garglewool-interface-front\GargleWool.Application\obj\Debug\netcoreapp2.2\GargleWool.Application.AssemblyInfo.cs
+E:\GitHub\garglewool-interface-front\GargleWool.Application\obj\Debug\netcoreapp2.2\GargleWool.Application.csproj.CopyComplete
+E:\GitHub\garglewool-interface-front\GargleWool.Application\obj\Debug\netcoreapp2.2\GargleWool.Application.dll
+E:\GitHub\garglewool-interface-front\GargleWool.Application\obj\Debug\netcoreapp2.2\GargleWool.Application.pdb

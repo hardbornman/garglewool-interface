@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Security.Cryptography.X509Certificates;
-using System.Threading.Tasks;
 using Abp.AspNetCore;
 using Abp.Castle.Logging.Log4Net;
 using Abp.IdentityServer4;
@@ -13,8 +10,6 @@ using GargleWool.Core.Identity;
 using GargleWool.Web.Core.Configuration;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -84,7 +79,11 @@ namespace ServiceOAuth
 
             app.UseIdentityServer();
 
+            // For Diagnose
+            // app.UseMiddleware<DiagnoseMiddleWare>();
+
             app.UseMvcWithDefaultRoute();
+
         }
     }
 }

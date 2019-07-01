@@ -3,6 +3,7 @@
 
 
 using System.Threading.Tasks;
+using Abp.AspNetCore.Mvc.Controllers;
 using IdentityServer4.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
@@ -13,7 +14,7 @@ namespace ServiceOAuth.Controllers.Quickstart.Home
 {
     [SecurityHeaders]
     [AllowAnonymous]
-    public class HomeController : Controller
+    public class HomeController : AbpController
     {
         private readonly IIdentityServerInteractionService _interaction;
         private readonly IHostingEnvironment _environment;
