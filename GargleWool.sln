@@ -17,19 +17,22 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GargleWool.Core", "GargleWo
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GargleWool", "GargleWool", "{03B9DC46-AD75-47C7-A82C-3235379EC042}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GargleWool.Web.Core", "GargleWool.Web.Core\GargleWool.Web.Core.csproj", "{88F053B4-A246-4016-AA4F-AE7847797A98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GargleWool.Web.Core", "GargleWool.Web.Core\GargleWool.Web.Core.csproj", "{88F053B4-A246-4016-AA4F-AE7847797A98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GargleWool.EntityFrameworkCore", "GargleWool.EntityFrameworkCore\GargleWool.EntityFrameworkCore.csproj", "{42708969-E6F6-4579-A457-DBDA40F64D60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GargleWool.EntityFrameworkCore", "GargleWool.EntityFrameworkCore\GargleWool.EntityFrameworkCore.csproj", "{42708969-E6F6-4579-A457-DBDA40F64D60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GargleWool.Application", "GargleWool.Application\GargleWool.Application.csproj", "{0A3465C8-2C1D-40F6-BA37-55686FEBE947}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GargleWool.Application", "GargleWool.Application\GargleWool.Application.csproj", "{0A3465C8-2C1D-40F6-BA37-55686FEBE947}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Ocelot Gateway", "3 Ocelot Gateway", "{DE674E07-70C5-4A64-9395-0B573A3D111C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 Microservices", "4 Microservices", "{534E3851-D662-4E25-94D7-D3186154482B}"
+	ProjectSection(SolutionItems) = preProject
+		ServiceOAuth\Startup.cs = ServiceOAuth\Startup.cs
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - ServiceA", "01 - ServiceA", "{88C15EB4-B093-47D5-889F-BDE9F5977282}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceA", "ServiceA\ServiceA.csproj", "{98AFF15C-7D51-478A-94A4-3E4C9170CFFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceA", "ServiceA\ServiceA.csproj", "{98AFF15C-7D51-478A-94A4-3E4C9170CFFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -34,3 +34,4 @@ E:\GitHub\garglewool-interface-front\GargleWool.Core\obj\Debug\netcoreapp2.2\Gar
 E:\GitHub\garglewool-interface-front\GargleWool.Core\obj\Debug\netcoreapp2.2\GargleWool.Core.AssemblyInfo.cs
 E:\GitHub\garglewool-interface-front\GargleWool.Core\obj\Debug\netcoreapp2.2\GargleWool.Core.dll
 E:\GitHub\garglewool-interface-front\GargleWool.Core\obj\Debug\netcoreapp2.2\GargleWool.Core.pdb
+E:\GitHub\garglewool-interface-front\GargleWool.Core\obj\Debug\netcoreapp2.2\GargleWool.Core.csprojAssemblyReference.cache

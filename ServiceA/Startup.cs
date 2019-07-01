@@ -1,39 +1,35 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using GargleWool.Web.Core.Configuration;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
+using ServiceA.MiddleWares;
 
 namespace ServiceA
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        public Startup(IHostingEnvironment env)
         {
-            Configuration = configuration;
+            _appConfiguration = env.GetAppConfiguration();
         }
 
-        public IConfiguration Configuration { get; }
+        private readonly IConfigurationRoot _appConfiguration;
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-            services.AddAuthentication("Bearer")
-                .AddJwtBearer("Bearer", options =>
+            services.AddAuthentication()
+                .AddIdentityServerAuthentication(JwtBearerDefaults.AuthenticationScheme, options =>
                 {
-                    options.Authority = Configuration["Authentication:IdentityServer4:Authority"];
+                    options.Authority = _appConfiguration["Authentication:IdentityServer4:Authority"];
                     options.RequireHttpsMetadata = false;
-
-                    options.Audience = Configuration["Authentication:JwtBearer:Audience"];
+                    options.ApiName = _appConfiguration["Authentication:IdentityServer4:ApiName"];
                 });
         }
 
@@ -45,9 +41,12 @@ namespace ServiceA
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseAuthentication();
+            app.UseMiddleware<AuthTestMiddleware>();
+            //app.UseAuthentication();
 
-            app.UseMvc();
+            app.UseStaticFiles();
+
+            app.UseMvcWithDefaultRoute();
         }
     }
 }

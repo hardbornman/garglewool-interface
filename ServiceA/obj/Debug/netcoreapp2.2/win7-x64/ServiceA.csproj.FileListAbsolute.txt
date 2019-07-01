@@ -48,3 +48,12 @@ E:\GitHub\garglewool-interface-front\ServiceA\obj\Debug\netcoreapp2.2\win7-x64\S
 E:\GitHub\garglewool-interface-front\ServiceA\obj\Debug\netcoreapp2.2\win7-x64\ServiceA.RazorTargetAssemblyInfo.cache
 E:\GitHub\garglewool-interface-front\ServiceA\obj\Debug\netcoreapp2.2\win7-x64\ServiceA.dll
 E:\GitHub\garglewool-interface-front\ServiceA\obj\Debug\netcoreapp2.2\win7-x64\ServiceA.pdb
+E:\GitHub\garglewool-interface-front\ServiceA\bin\Debug\netcoreapp2.2\win7-x64\GargleWool.Application.dll
+E:\GitHub\garglewool-interface-front\ServiceA\bin\Debug\netcoreapp2.2\win7-x64\GargleWool.Core.dll
+E:\GitHub\garglewool-interface-front\ServiceA\bin\Debug\netcoreapp2.2\win7-x64\GargleWool.EntityFrameworkCore.dll
+E:\GitHub\garglewool-interface-front\ServiceA\bin\Debug\netcoreapp2.2\win7-x64\GargleWool.Web.Core.dll
+E:\GitHub\garglewool-interface-front\ServiceA\bin\Debug\netcoreapp2.2\win7-x64\GargleWool.Web.Core.pdb
+E:\GitHub\garglewool-interface-front\ServiceA\bin\Debug\netcoreapp2.2\win7-x64\GargleWool.Application.pdb
+E:\GitHub\garglewool-interface-front\ServiceA\bin\Debug\netcoreapp2.2\win7-x64\GargleWool.Core.pdb
+E:\GitHub\garglewool-interface-front\ServiceA\bin\Debug\netcoreapp2.2\win7-x64\GargleWool.EntityFrameworkCore.pdb
+E:\GitHub\garglewool-interface-front\ServiceA\obj\Debug\netcoreapp2.2\win7-x64\ServiceA.csproj.CopyComplete

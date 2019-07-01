@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "affd78b78d09a073c81ff1688f2b8c4fd7701e3e"
+    "signature": "038fa79e60056d117241dc63686b51d46b9e88f3"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,7 +11,8 @@
           "Abp.AspNetCore": "4.6.0",
           "Abp.AspNetCore.SignalR": "4.6.0",
           "GargleWool.Application": "1.0.0",
-          "GargleWool.EntityFrameworkCore": "1.0.0"
+          "GargleWool.EntityFrameworkCore": "1.0.0",
+          "IdentityServer4.AccessTokenValidation": "2.7.0"
         },
         "runtime": {
           "GargleWool.Web.Core.dll": {}
@@ -291,6 +292,20 @@
           }
         }
       },
+      "IdentityModel.AspNetCore.OAuth2Introspection/3.5.0": {
+        "dependencies": {
+          "IdentityModel": "3.10.3",
+          "Microsoft.AspNetCore.Authentication": "2.2.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Caching.Memory": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityModel.AspNetCore.OAuth2Introspection.dll": {
+            "assemblyVersion": "3.5.0.0",
+            "fileVersion": "3.5.0.0"
+          }
+        }
+      },
       "IdentityServer4/2.3.2": {
         "dependencies": {
           "IdentityModel": "3.10.3",
@@ -309,6 +324,19 @@
           "lib/netstandard2.0/IdentityServer4.dll": {
             "assemblyVersion": "2.3.2.0",
             "fileVersion": "2.3.2.0"
+          }
+        }
+      },
+      "IdentityServer4.AccessTokenValidation/2.7.0": {
+        "dependencies": {
+          "IdentityModel.AspNetCore.OAuth2Introspection": "3.5.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "2.1.0",
+          "Microsoft.AspNetCore.Authorization": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityServer4.AccessTokenValidation.dll": {
+            "assemblyVersion": "2.7.0.0",
+            "fileVersion": "2.7.0.0"
           }
         }
       },
@@ -410,6 +438,18 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Core.dll": {
             "assemblyVersion": "2.2.0.0",
             "fileVersion": "2.2.0.18316"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.JwtBearer/2.1.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication": "2.2.0",
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "5.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18136"
           }
         }
       },
@@ -3175,12 +3215,26 @@
       "path": "identitymodel/3.10.3",
       "hashPath": "identitymodel.3.10.3.nupkg.sha512"
     },
+    "IdentityModel.AspNetCore.OAuth2Introspection/3.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xhUokByBfzpp9cNn4EbXA2KbrSgGaTM16Aj2UlNE/6PYrC+bXF/Ns5K9OrAy7XBGfpfyzG8l6y5WYzn0rDNnqw==",
+      "path": "identitymodel.aspnetcore.oauth2introspection/3.5.0",
+      "hashPath": "identitymodel.aspnetcore.oauth2introspection.3.5.0.nupkg.sha512"
+    },
     "IdentityServer4/2.3.2": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-PLwOs5/JHgq6MSIuYuF4IPFYkd5YO16ODVf/Xy0XULLxgnYkn4ZX1nu+MDTn9v2GRa8uiuTyS/hMdChM0wk6XQ==",
       "path": "identityserver4/2.3.2",
       "hashPath": "identityserver4.2.3.2.nupkg.sha512"
+    },
+    "IdentityServer4.AccessTokenValidation/2.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gMdcaTsi4heNv233NRFcVClf6Ixm2E4rFBYODuUqp88UhsTBa1uUS9d6KD4+lFP6Huj8jyJnSStAytTUUyJe8Q==",
+      "path": "identityserver4.accesstokenvalidation/2.7.0",
+      "hashPath": "identityserver4.accesstokenvalidation.2.7.0.nupkg.sha512"
     },
     "IdentityServer4.AspNetIdentity/2.3.0": {
       "type": "package",
@@ -3237,6 +3291,13 @@
       "sha512": "sha512-FjzNODWQf4RAjiiZz/ejHLOaid4HjL9ggngS7Gvdch3LhWZvaAyCq6ImRprkonN5/q2Cwg9FKNb5788yKTJRXA==",
       "path": "microsoft.aspnetcore.authentication.core/2.2.0",
       "hashPath": "microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.JwtBearer/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Mia+lpHuVKVjuPiGZW6hNDwYWpSBOaanu95N5Mg5nLTiYHpuWh8rAexQue7pICSBXPcEuuqQXhkom5MxrkXC5g==",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/2.1.0",
+      "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.2.1.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.OAuth/2.1.0": {
       "type": "package",
