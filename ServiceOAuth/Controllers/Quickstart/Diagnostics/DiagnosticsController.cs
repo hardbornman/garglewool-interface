@@ -5,6 +5,7 @@
 using System.Linq;
 using System.Threading.Tasks;
 using Abp.AspNetCore.Mvc.Controllers;
+using GargleWool.Web.Core.Controllers;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -13,7 +14,7 @@ namespace ServiceOAuth.Controllers.Quickstart.Diagnostics
 {
     [SecurityHeaders]
     [Authorize]
-    public class DiagnosticsController : AbpController
+    public class DiagnosticsController : GargleWoolControllerBase
     {
         public async Task<IActionResult> Index()
         {

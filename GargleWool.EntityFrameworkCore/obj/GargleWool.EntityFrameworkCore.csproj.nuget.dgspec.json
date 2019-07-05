@@ -45,7 +45,7 @@
           "dependencies": {
             "Abp.ZeroCore.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[4.6.0, )"
+              "version": "[4.7.0, )"
             },
             "Microsoft.Extensions.Configuration.EnvironmentVariables": {
               "target": "Package",
@@ -119,7 +119,7 @@
           "dependencies": {
             "Abp.ZeroCore.IdentityServer4.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[4.6.0, )"
+              "version": "[4.7.0, )"
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",

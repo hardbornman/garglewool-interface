@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using GargleWool.Core;
 using IdentityModel;
 using IdentityServer4.Models;
 
@@ -15,7 +16,7 @@ namespace ServiceOAuth.Configuration
                 {
                     UserClaims = new List<string>{"City","State"}
                 },
-                new ApiResource("garglewool-api","GargleWool (all) API")
+                new ApiResource(GargleWoolConstants.ScopeApi,"GargleWool (all) API")
             };
         }
 

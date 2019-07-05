@@ -4,7 +4,7 @@
 
 using System.Linq;
 using System.Threading.Tasks;
-using Abp.AspNetCore.Mvc.Controllers;
+using GargleWool.Web.Core.Controllers;
 using IdentityServer4.Events;
 using IdentityServer4.Extensions;
 using IdentityServer4.Models;
@@ -22,7 +22,7 @@ namespace ServiceOAuth.Controllers.Quickstart.Consent
     /// </summary>
     [SecurityHeaders]
     [Authorize]
-    public class ConsentController : AbpController
+    public class ConsentController : GargleWoolControllerBase
     {
         private readonly IIdentityServerInteractionService _interaction;
         private readonly IClientStore _clientStore;

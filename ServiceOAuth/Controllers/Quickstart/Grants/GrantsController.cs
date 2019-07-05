@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Abp.AspNetCore.Mvc.Controllers;
+using GargleWool.Web.Core.Controllers;
 using IdentityServer4.Events;
 using IdentityServer4.Extensions;
 using IdentityServer4.Services;
@@ -20,7 +21,7 @@ namespace ServiceOAuth.Controllers.Quickstart.Grants
     /// </summary>
     [SecurityHeaders]
     [Authorize]
-    public class GrantsController : AbpController
+    public class GrantsController : GargleWoolControllerBase
     {
         private readonly IIdentityServerInteractionService _interaction;
         private readonly IClientStore _clients;

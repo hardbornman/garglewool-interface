@@ -5,14 +5,16 @@
 using System;
 using System.Linq;
 using System.Threading.Tasks;
-using Abp.AspNetCore.Mvc.Controllers;
+using Abp.Authorization;
+using GargleWool.Core.Authorization;
+using GargleWool.Core.Authorization.Users;
+using GargleWool.Web.Core.Controllers;
 using IdentityModel;
 using IdentityServer4.Events;
 using IdentityServer4.Extensions;
 using IdentityServer4.Models;
 using IdentityServer4.Services;
 using IdentityServer4.Stores;
-using IdentityServer4.Test;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -27,9 +29,10 @@ namespace ServiceOAuth.Controllers.Quickstart.Account
     /// </summary>
     [SecurityHeaders]
     [AllowAnonymous]
-    public class AccountController : AbpController
+    public class AccountController : GargleWoolControllerBase
     {
-        private readonly TestUserStore _users;
+        private readonly LogInManager _logInManager;
+        private readonly UserManager _userManager;
         private readonly IIdentityServerInteractionService _interaction;
         private readonly IClientStore _clientStore;
         private readonly IAuthenticationSchemeProvider _schemeProvider;
@@ -39,17 +42,18 @@ namespace ServiceOAuth.Controllers.Quickstart.Account
             IIdentityServerInteractionService interaction,
             IClientStore clientStore,
             IAuthenticationSchemeProvider schemeProvider,
-            IEventService events,
-            TestUserStore users = null)
+            IEventService events, 
+            LogInManager logInManager,
+            UserManager userManager)
         {
             // if the TestUserStore is not in DI, then we'll just use the global users collection
             // this is where you would plug in your own custom identity management library (e.g. ASP.NET Identity)
-            _users = users ?? new TestUserStore(TestUsers.Users);
-
             _interaction = interaction;
             _clientStore = clientStore;
             _schemeProvider = schemeProvider;
             _events = events;
+            _logInManager = logInManager;
+            _userManager = userManager;
         }
 
         /// <summary>
@@ -110,10 +114,11 @@ namespace ServiceOAuth.Controllers.Quickstart.Account
             if (ModelState.IsValid)
             {
                 // validate username/password against in-memory store
-                if (_users.ValidateCredentials(model.Username, model.Password))
+                var result = _logInManager.Login(model.Username, model.Password);
+                if (result.Result == AbpLoginResultType.Success)
                 {
-                    var user = _users.FindByUsername(model.Username);
-                    await _events.RaiseAsync(new UserLoginSuccessEvent(user.Username, user.SubjectId, user.Username));
+                    var user = await _userManager.FindByNameAsync(result.User.UserName);
+                    await _events.RaiseAsync(new UserLoginSuccessEvent(user.UserName, user.Id.ToString(), user.UserName));
 
                     // only set explicit expiration here if user chooses "remember me". 
                     // otherwise we rely upon expiration configured in cookie middleware.
@@ -128,7 +133,7 @@ namespace ServiceOAuth.Controllers.Quickstart.Account
                     };
 
                     // issue authentication cookie with subject ID and username
-                    await HttpContext.SignInAsync(user.SubjectId, user.Username, props);
+                    await HttpContext.SignInAsync(user.Id.ToString(), user.UserName, props);
 
                     if (context != null)
                     {

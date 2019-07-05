@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using ServiceA.MiddleWares;
 
 namespace ServiceA
 {
@@ -41,8 +40,7 @@ namespace ServiceA
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseMiddleware<AuthTestMiddleware>();
-            //app.UseAuthentication();
+            app.UseAuthentication();
 
             app.UseStaticFiles();
 

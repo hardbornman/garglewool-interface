@@ -4,6 +4,7 @@
 
 using System.Threading.Tasks;
 using Abp.AspNetCore.Mvc.Controllers;
+using GargleWool.Web.Core.Controllers;
 using IdentityServer4.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
@@ -14,7 +15,7 @@ namespace ServiceOAuth.Controllers.Quickstart.Home
 {
     [SecurityHeaders]
     [AllowAnonymous]
-    public class HomeController : AbpController
+    public class HomeController : GargleWoolControllerBase
     {
         private readonly IIdentityServerInteractionService _interaction;
         private readonly IHostingEnvironment _environment;
